@@ -1,0 +1,184 @@
+/* Config File */
+*{
+    box-sizing: border-box !important;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body{
+    font-family: 'Montserrat' , sans-serif;
+    background-color: cadetblue;
+}
+
+html{
+    font-size: 15px;
+}
+
+/*nav */
+nav{
+    opacity: .9;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;  
+   }
+.navbar-nav a:hover {
+    background-color: #ee8080;
+    border-radius: 10px;
+    
+}
+
+/*header */
+header .jumbotron{
+background-image: url(ko-images/header-1.jpg);
+background-size: cover;
+background-position: 25% 50%;
+padding-top:12rem ;
+height: 30rem;
+opacity: 0.9;
+z-index: -1;
+}
+#header-title-ko{
+    text-transform: uppercase;
+    font-family: 'Amatic SC',cursive;
+
+}
+
+/*card*/
+.card-about{
+    background:#f0f1f2;
+    text-align: center;
+    margin: auto;
+}
+.card-post{
+    background:#f0f1f2;
+    text-align: center;
+    margin: auto;
+}
+.card-comment{
+    background:#f0f1f2;
+    text-align: center;
+    margin: auto;
+    
+}
+.card-comment-post{
+    background:#f0f1f2;
+    margin: auto;
+
+
+}
+.comment{
+    width: 80%;
+    height: 170px;
+    box-align: center;
+    margin-left: 60px;
+    background: #fff;
+    
+}
+
+.card-about img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+
+}
+.card-about img:hover{
+    transform: scale(0.9) ;
+}
+.card-about li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.card-about li a{
+    color: grey;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.card-about li a:hover{
+    color: #85a1f0;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Amatic SC',cursive;
+    color: black;
+
+}
+#commentform label {
+    display: block;
+}
+
+.member{
+    position: relative;
+    
+}
+.overlay{
+    background-color: rgba(231,76,60,.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition:  all .3s linear;
+}
+
+.member:hover .overlay{
+    height: 100%;
+    opacity: 1;
+}
+.member-info{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    
+}
+.social-list{
+    padding: 0;
+
+}
+.social-list li{
+    display: inline-block;
+    padding: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.social-list li a{
+    border: 1px solid #fff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 50%;
+    transition:  all .3s linear;
+
+}
+.social-list li:nth-child(1) a:hover{
+    background-color: #3b5998;
+    border-color:transparent;
+}
+.social-list li:nth-child(2) a:hover{
+    background-color: #000;
+    border-color:transparent;
+}
+
+#members > div.owl-dots > button.owl-dot.active,#members > div.owl-dots > button.owl-dot.active{
+    border-radius: 50%;
+    background: cadetblue;
+}
+
+
+
+
+
+
